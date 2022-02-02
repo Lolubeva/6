@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: #F4F1F8;
+}
+table {
+  border-collapse: collapse;
+  line-height: 1.1;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background:  radial-gradient(farthest-corner at 50% 50%, white, #FFB6C1);
+  color: #0C213B;
+  }
+.f {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+td {
+  font-size: 0.9em;
+  padding: 5px 9px;
+  border: 1px solid #8B0000;
+}
+
+th {
+  padding: 10px;
+  border: 2px solid #C71585;
+}
+
+caption {
+  font-family: annabelle, cursive;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 10px;
+  color: #DC143C;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+  }
+caption:before, caption:after {
+  content: "\274B";
+  color: #B0C4DE;
+  margin: 0 10px;
+}
